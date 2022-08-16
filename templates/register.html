@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+    </head>
+    <body style="background-color:#575252">
+        <div class="header">
+            <div class="title">Digital SlamBook</div>
+        </div>
+        <div class="bgimg"></div>
+        <div class="form">
+            <form action="/dashboard" method="post">
+              Roll No* <br /><input type="number" style="width:300px;height:25px;color:#808080" name="roll" placeholder="NITT RollNo..." required /><br /><br />
+              Name*<br /><input type="text" style="width:300px;height:25px;color:#808080" name="name" placeholder="Name..." required /><br /><br />
+              Department<br /><input type="text" style="width:300px;height:25px;color:#808080" name="dept" placeholder="Department..." /><br /><br />
+              Display picture<br /><input type="file" accept="image/gif, image/jpeg, image/png" style="width:300px;height:25px;color:#808080" name="img" /><br /><br />
+              Email ID*<br /><input type="text" style="width:300px;height:25px;color:#808080" name="email" placeholder="WebmailID..." required /><br /><br />
+              Password*<br /><input type="password" style="width:300px;height:25px;color:#808080" name="pass" placeholder="Password..." required /><br /><br />
+              Re-Enter Password*<br /><input type="password" style="width:300px;height:25px;color:#808080" name="repass" placeholder="Retype Password..." required /><br /><br />
+              <button type="submit" name="reg_sub">Register</button>
+            </form>
+        </div>
+    </body>
+    <style>
+        .header{
+            background-color:rgb(7, 6, 8);
+            color:#fff;
+            height:80px;
+        }
+        .title{
+            font-size:larger;
+            font-style:oblique;
+            padding-top: 20px;
+            margin-left:5%;
+        }
+        .form{
+            background-color: rgb(50, 49, 51);
+            margin-top: 5%;
+            margin-left:35%;
+            color:#fff;
+            width:300px;
+            padding:30px 30px 30px 30px;
+        }
+        .bgmimg{
+            background-image: url("https://i.pinimg.com/originals/53/a4/af/53a4aff5fe3e03a4c3795cfa61e00f90.jpg");
+        }
+    </style>
+</html>
